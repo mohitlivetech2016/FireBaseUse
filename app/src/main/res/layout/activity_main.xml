@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context="com.app.firebaseuse.MainActivity">
+
+
+    <EditText
+        android:layout_marginTop="120sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEtUsername"
+        android:hint="Enter MailId"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEtPassword"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBtnSubmitData"
+        android:text="Register User"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Register SignIn Here"
+        android:id="@+id/idTvARregisterSIhere"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+</LinearLayout>
