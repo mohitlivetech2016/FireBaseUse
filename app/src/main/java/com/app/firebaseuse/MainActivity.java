@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText mEtUserName,mEtPassword;
     private Button mBtnRegister;
     private TextView mTvsignUp;
-    private ProgressDialog progressDialog;
-    private FirebaseAuth firebaseAuth;
+     ProgressDialog progressDialog;
+     FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
